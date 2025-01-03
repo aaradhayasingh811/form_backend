@@ -18,5 +18,10 @@ const loginController =async(req,res)=>{
     }
 }
 
+const firstController = (req,res)=>{
+    res.send("Hello world");
+}
+
 
 export default loginController
+export {firstController}
